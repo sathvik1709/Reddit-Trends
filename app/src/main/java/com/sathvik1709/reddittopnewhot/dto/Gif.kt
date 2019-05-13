@@ -3,11 +3,13 @@ package com.sathvik1709.reddittopnewhot.dto
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-class RedditResponse {
-    @SerializedName("kind")
+class Gif {
+
+    @SerializedName("source")
     @Expose
-    var kind: String? = null
-    @SerializedName("data")
+    var source: Source? = null
+    @SerializedName("resolutions")
     @Expose
-    var data: Data? = null
+    var resolutions: List<Resolution_>? = null
+
 }

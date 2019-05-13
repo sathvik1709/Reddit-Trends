@@ -3,11 +3,13 @@ package com.sathvik1709.reddittopnewhot.dto
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-class RedditResponse {
-    @SerializedName("kind")
+class Gildings {
+
+    @SerializedName("gid_1")
     @Expose
-    var kind: String? = null
-    @SerializedName("data")
+    var gid1: Long? = null
+    @SerializedName("gid_2")
     @Expose
-    var data: Data? = null
+    var gid2: Long? = null
+
 }
